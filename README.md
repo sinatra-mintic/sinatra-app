@@ -1,11 +1,9 @@
-# Android Example Application
-
-This is an example Android Application README to show briefly the sections your app README should contain.
+# SINATRA APP
 
 ## Installation
 Clone this repository and import into **Android Studio**
 ```bash
-git clone git@github.com:wolox/<reponame>.git
+git clone git@github.com:wolox/sinatra-app.git
 ```
 
 ## Configuration
@@ -33,7 +31,7 @@ From Android Studio:
 
 ## Maintainers
 This project is mantained by:
-* [Federico Ramundo](http://github.com/framundo)
+* SINATRA
 
 
 ## Contributing
