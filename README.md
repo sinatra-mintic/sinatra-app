@@ -18,7 +18,7 @@ Desarrollado por:
 ## Instalación
 Clonar este repositorio y abrirlo desde **Android Studio**
 ```bash
-git clone git@github.com:wolox/sinatra-app.git
+git clone https://github.com/sinatra-mintic/sinatra-app
 ```
 
 ## Configuración
