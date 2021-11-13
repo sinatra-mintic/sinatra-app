@@ -11,7 +11,7 @@ Desarrollado por:
 
 - Maria Jose Jadnat Perez Alba
 - Héctor Alexander Martínez
-- Ivan Gabriel Ibarra
+- Ivan Gabriel Ibarra ceballos
 - Daniel Felipe Ramirez Ferrín 
 - Yessid Samir Acosta Guatusmal
 
