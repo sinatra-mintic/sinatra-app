@@ -1,6 +1,5 @@
 # SINATRA APP
 
-
 ### Estado del proyecto
 
 El proyecto se encuentra en proceso : _in progress_ <!-- / _complete_ /-->
@@ -43,3 +42,4 @@ Seguir los siguientes paso en Android Studio:
 Este proyecto está siendo mantenido por:
 * SINATRA
 
+<img src="https://user-images.githubusercontent.com/93962315/141714636-0b65527b-8667-4771-9d40-83048bf0d3b5.jpg" width="400" height="790">
