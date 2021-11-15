@@ -1,5 +1,7 @@
 # SINATRA APP
 
+![Screenshot_20211114_214922_com example mydemo](https://user-images.githubusercontent.com/93962315/141714636-0b65527b-8667-4771-9d40-83048bf0d3b5.jpg)
+
 
 ### Estado del proyecto
 
