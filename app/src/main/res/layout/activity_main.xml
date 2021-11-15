@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bgcolor"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/item_custom_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/title_site"
+            android:textAlignment="center"
+            android:textColor="#050303"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="409dp"
+            android:layout_height="212dp"
+            android:layout_marginTop="56dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.481"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.034"
+            app:srcCompat="@drawable/ny"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="324dp"
+            android:layout_height="147dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/text"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="319dp"
+            android:layout_height="73dp"
+            android:background="#CFD8F8"
+            android:text="@string/list_specs"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textAppearance="@style/Widget.AppCompat.ListView"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/button6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:layout_constraintVertical_bias="0.16" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sitios_recomendados"
+            android:textAlignment="center"
+            android:textColor="#050303"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/button6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="148dp"
+            android:background="#7EAEAD"
+            android:text="@string/times_square"
+            android:textAllCaps="true"
+            android:textColor="#4E342E"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:background="#7EAEAD"
+            android:text="@string/puente_de_brooklyn"
+            android:textAllCaps="true"
+            android:textColor="#4E342E"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:background="#7EAEAD"
+            android:text="@string/central_park"
+            android:textAllCaps="true"
+            android:textColor="#4E342E"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

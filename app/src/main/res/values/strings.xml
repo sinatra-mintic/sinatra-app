@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SINATRA</string>
+    <string name="text">New York. Capital económica y cultural más
+        importante del mundo. Preferido por los turistas debido a sus
+        sitios icónicos y por ser el escenario cinematográfico de centenares de peliculas y series.
+    </string>
+    <string name="times_square">Times Square</string>
+    <string name="puente_de_brooklyn">Puente de Brooklyn</string>
+    <string name="central_park">Central Park</string>
+    <string name="title_site">NEW YORK</string>
+    <string name="list_specs">
+        <b>UBICACION:</b> Costa Este EEUU  <b>TEMPERATURA:</b> -2°C a 29°C
+    </string>
+    <string name="sitios_recomendados">Sitios recomendados</string>
+    <string name="todo">TODO</string>
+</resources>
