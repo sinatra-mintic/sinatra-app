@@ -29,7 +29,7 @@ class DetailFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        //nameView = view.findViewById(R.id.name_text)
+        nameView = view.findViewById(R.id.name_text)
         model = ViewModelProvider(requireActivity()).get(ContactViewModel::class.java)
         observeLiveData()
     }

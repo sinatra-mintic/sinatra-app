@@ -34,7 +34,7 @@ class ListFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val context = requireContext().applicationContext
+        //val context = requireContext().applicationContext
         return inflater.inflate(R.layout.fragment_list, container, false)
     }
 
