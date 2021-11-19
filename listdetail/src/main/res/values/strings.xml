@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Sinatra: Nueva York</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="text">Recorre los senderos a pie o en bici, túmbate en el Sheep Meadow con un pícnic, rema por el lago,
+        emociónate en la fuente de Bethesda.Las posibilidades son infinitas, pero algo está claro: una de las cosas que tienes
+        que hacer es sí o sí perderte una o más veces
+    </string>
+
+    <string name="list_specs">
+        <b>UBICACION:</b> Distrito metropolitando de Manhattan  <b>TEMPERATURA:</b> -2°C a 29°C
+    </string>
+
+    <string name="todo">TODO</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="contact_thumb">Contact Thubmnail Picture</string>
+    <string name="action_clear">Clear</string>
+    <string name="new_contact">New Contact</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="contact_not_valid">Please enter valid contact information</string>
+    <string name="action_generate">Generate</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="edit_contact">Edit Contact</string>
+    <string name="action_sort_first">Sort by First Name</string>
+    <string name="action_sort_last">Sort by Last Name</string>
+</resources>
