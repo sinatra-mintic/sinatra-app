@@ -29,4 +29,5 @@
     <string name="action_sort_first">Sort by First Name</string>
     <string name="action_sort_last">Sort by Last Name</string>
     <string name="central_park">CENTRAL PARK</string>
+    <string name="description">description</string>
 </resources>
