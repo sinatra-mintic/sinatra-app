@@ -17,6 +17,12 @@
         android:id="@+id/contact_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
         app:layoutManager="LinearLayoutManager" />
+=======
+        app:layoutManager="LinearLayoutManager"
+        tools:visibility="visible" />
+
+>>>>>>> sprint_2
 
 </FrameLayout>

@@ -40,6 +40,7 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+<<<<<<< HEAD
 
         model = ViewModelProvider(requireActivity()).get(ContactViewModel::class.java)
 
@@ -47,6 +48,15 @@ class ListFragment : Fragment() {
         setupRecyclerView()
     }
 
+=======
+        model = ViewModelProvider(requireActivity()).get(ContactViewModel::class.java)
+        recycler = view.findViewById(R.id.contact_list)
+        setupRecyclerView()
+
+    }
+
+
+>>>>>>> sprint_2
     override fun onAttach(context: Context) {
         super.onAttach(context)
         this.contexto = context
@@ -79,11 +89,19 @@ class ListFragment : Fragment() {
 
     private fun createMockContacts(): ArrayList<Contact> {
         return arrayListOf(
+<<<<<<< HEAD
             Contact("1","Central Park", "senderos a pie"),
             Contact("2","Top of the rock", "panoramica de la gran manzana"),
             Contact("3","ferry state land", "ferry gratuito"),
             Contact("4","high line", "parque elevado" ),
             Contact("5","vessel", "zona de rascacielos y lujos", )
+=======
+            Contact("1","Central Park", "Senderos a pie","co@gmail.com"),
+            Contact("2","Top of the rock", "Panorámica de la gran manzana","co@gmail.com"),
+            Contact("3","Terry state land", "Ferry gratuito","co@gmail.com"),
+            Contact("4","High line", "Parque elevado" ,"co@gmail.com"),
+            Contact("5","Vessel", "Zona de rascacielos y lujos","co@gmail.com")
+>>>>>>> sprint_2
         )
     }
 

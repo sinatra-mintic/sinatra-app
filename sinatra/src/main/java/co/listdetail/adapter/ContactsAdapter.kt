@@ -37,7 +37,12 @@ class ContactsAdapter(
 
     inner class ContactViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private var nameLabel: TextView = itemView.findViewById(R.id.textview_name)
+<<<<<<< HEAD
         private var emailLabel: TextView = itemView.findViewById(R.id.textview_email)
+=======
+        private var emailLabel: TextView = itemView.findViewById(R.id.textview_name)
+        private var descriptionItemLabel: TextView = itemView.findViewById(R.id.textview_description)
+>>>>>>> sprint_2
         private var imageView: ImageView = itemView.findViewById(R.id.imageview_thumb)
         private var currentContact: Contact? = null
         //private var context: Context = android.view.View
@@ -53,6 +58,7 @@ class ContactsAdapter(
 
         /* Bind Contact name and image. */
         fun bind(contact: Contact) {
+<<<<<<< HEAD
 
             currentContact = contact
 
@@ -60,6 +66,13 @@ class ContactsAdapter(
             nameLabel.text = contact.lastName
             emailLabel.text = contact.email
 
+=======
+            currentContact = contact
+           // val fullName = "${contact.firstName} ${contact.lastName}"
+            nameLabel.text = contact.lastName
+            emailLabel.text = contact.lastName
+            descriptionItemLabel.text = contact.descriptionItem
+>>>>>>> sprint_2
             if (contact.firstName =="1") contact.imageUrl=R.drawable.central_park
             else if(contact.firstName == "2") contact.imageUrl=R.drawable.top_rock
             else if(contact.firstName == "3") contact.imageUrl=R.drawable.ferry_land

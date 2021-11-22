@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+=======
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+>>>>>>> sprint_2
     tools:context=".ui.MainActivity"
     android:orientation="horizontal">
 
@@ -90,4 +101,9 @@
         android:textSize="24sp"
         tools:text="Jose Perez" />
 
+<<<<<<< HEAD
 </LinearLayout>
+=======
+</LinearLayout>
+</ScrollView>
+>>>>>>> sprint_2
