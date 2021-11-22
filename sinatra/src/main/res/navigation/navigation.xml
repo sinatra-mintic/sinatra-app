@@ -13,11 +13,43 @@
         <action
             android:id="@+id/action_listFragment_to_detailFragment"
             app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_top_rock"
+            app:destination="@id/top_rock" />
+        <action
+            android:id="@+id/action_listFragment_to_ferry_land"
+            app:destination="@id/ferry_land" />
+        <action
+            android:id="@+id/action_listFragment_to_high_line"
+            app:destination="@id/high_line" />
+        <action
+            android:id="@+id/action_listFragment_to_vessel"
+            app:destination="@id/vessel" />
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
         android:name="co.listdetail.ui.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" />
+    <fragment
+        android:id="@+id/top_rock"
+        android:name="co.listdetail.ui.top_rock"
+        android:label="top_rock2"
+        tools:layout="@layout/top_rock" />
+    <fragment
+        android:id="@+id/ferry_land"
+        android:name="co.listdetail.ui.ferry_land"
+        android:label="ferry_land2"
+        tools:layout="@layout/ferry_state" />
+    <fragment
+        android:id="@+id/high_line"
+        android:name="co.listdetail.ui.high_line"
+        android:label="high_line2"
+        tools:layout="@layout/high_line"/>
+    <fragment
+        android:id="@+id/vessel"
+        android:name="co.listdetail.ui.vessel"
+        android:label="vessel2"
+        tools:layout="@layout/vessel" />
 
 </navigation>
