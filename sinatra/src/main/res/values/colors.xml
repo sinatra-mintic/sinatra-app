@@ -7,11 +7,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-<<<<<<< HEAD
-
-    <color name="bgcolor">#F3F6FE</color>
-=======
     <color name="bgcolor">#F3F6FE</color>
     <color name="bgcolor_item">#DEE4F3</color>
->>>>>>> sprint_2
 </resources>
