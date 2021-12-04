@@ -74,7 +74,21 @@ class ListFragment : Fragment() {
     private fun contactOnClick(contact: Contact) {
         Log.d(TAG, "Click on: $contact")
         model.select(contact)
-        findNavController().navigate(R.id.action_listFragment_to_detailFragment)
+
+        if (contact.firstName =="1"){
+            findNavController().navigate(R.id.action_listFragment_to_detailFragment)
+        }else if (contact.firstName =="2"){
+            findNavController().navigate(R.id.action_listFragment_to_top_rock)
+        }
+        else if (contact.firstName =="3"){
+            findNavController().navigate(R.id.action_listFragment_to_ferry_land)
+        }
+        else if (contact.firstName =="4"){
+            findNavController().navigate(R.id.action_listFragment_to_high_line)
+        }
+        else{
+            findNavController().navigate(R.id.action_listFragment_to_vessel)
+        }
     }
 
     private fun createMockContacts(): ArrayList<Contact> {

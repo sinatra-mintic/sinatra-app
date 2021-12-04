@@ -8,8 +8,41 @@
         que hacer es sí o sí perderte una o más veces
     </string>
 
+    <string name="text2">Es un mirador que se encuentra situado en el Rockefeller Center, y es mi observatorio favorito en altura de Nueva York.
+        Sin apenas colas, debido principalmente a una buena organización, te ofrece las mejores vistas aéreas de Nueva York y Manhattan,
+        sobre todo de toda la zona de Central Park y Midtown.
+    </string>
+
+    <string name="text3">Si te sitúas junto al agua en el sur de Manhattan, tanto de día como de noche verás un reguero de barcos de color naranja que llegan y zarpan de la isla.
+        Es muy popular entre los turistas porque, durante el trayecto, se ven la Estatua de la Libertad (desde lejos; el ferry no desembarca en la isla) y la silueta de Manhattan.
+    </string>
+
+    <string name="text4"> Es un parque lineal de 1,45 millas de largo (2,33 km) en el distrito de Manhattan en Nueva York. Este parque se encuentra en una sección elevada de la línea
+        East Side Line de la extinta compañía de ferrocarriles New York Central Railroad.Inspirados por el Coulée verte René-Dumont de París, un proyecto similar de 4,7 kilómetros completado en 1993
+    </string>
+
+    <string name="text5"> Es una estructura y punto de atracción construida como parte del Plan de Desarrollo de Hudson Yards en Manhattan, Nueva York, Estados Unidos. Fue construida de acuerdo al diseño
+        del británico Thomas Heatherwick, la estructura que asemeja un complejo patrón de panel de abejas se eleva 16 pisos
+    </string>
+
     <string name="list_specs">
         <b>UBICACION:</b> Distrito metropolitando de Manhattan  <b>TEMPERATURA:</b> -2°C a 29°C
+    </string>
+
+    <string name="list_specs2">
+        <b>UBICACION:</b> Rockefeller Center  <b>TEMPERATURA:</b> -2°C a 29°C
+    </string>
+
+    <string name="list_specs3">
+        <b>UBICACION:</b> Manhattan  <b>TEMPERATURA:</b> -2°C a 29°C
+    </string>
+
+    <string name="list_specs4">
+        <b>UBICACION:</b> Nueva York, 10011, EE. UU.  <b>TEMPERATURA:</b> -2°C a 29°C
+    </string>
+
+    <string name="list_specs5">
+        <b>UBICACION:</b> 40°45′14″N 74°00′08″O <b>TEMPERATURA:</b> -2°C a 29°C
     </string>
 
     <string name="todo">TODO</string>
@@ -30,4 +63,12 @@
     <string name="action_sort_last">Sort by Last Name</string>
     <string name="central_park">CENTRAL PARK</string>
     <string name="description">description</string>
+
+    <string name="top_rock">TOP OF THE ROCK</string>
+
+    <string name="ferry_state">FERRY STATE LAND</string>
+
+    <string name="high_line">HIGH LINE</string>
+
+    <string name="vessel">VESSEL</string>
 </resources>
